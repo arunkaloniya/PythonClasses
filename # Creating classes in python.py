@@ -4,7 +4,7 @@ class carma:
     a=10 # This is a property within class
 
 
-#crating a obkect from a python class
+#crating a object from a python class
 
 obj1=carma()
 
