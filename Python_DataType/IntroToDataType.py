@@ -82,6 +82,64 @@ Y = [4, 5, 6]
 Z = np.add(X, Y) # it would add only if size of both the list is same
 print(Z)
 
+#Multiplication
+Z=np.multiply(X,Y)
+Z
+
+#Divide
+Z=np.divide(X,Y)
+Z
+#Subtract
+Z=np.subtract(X,Y)
+Z
+
+
+### TUPLE
+'''
+Tuple
+Like list, tuple can also contain mixed data. But tuple cannot be mutable or changed once created whereas list can be mutable or modified.
+Another difference is a tuple is created inside parentheses ( ). Whereas, list is created inside square brackets [ ]
+
+Examples '''
+
+mytuple = (123,223,323)
+City = ('Delhi','Mumbai','Bangalore')
+
+
+
+'''
+Dictionary
+It works like an address book wherein you can find an address of a person by searching the name. 
+In this example. name of a person is considered as key and address as value. 
+It is important to note that the key must be unique while values may not be.
+ Keys should not be duplicate because if it is a duplicate, you cannot find exact values associated with key. 
+ Keys can be of any data type such as strings, numbers, or tuples.
+
+
+'''
+
+my_dict={'Name':['Arun','Ankit','Shashi']
+         ,'Age':[30,31,32]}
+
+my_dict.keys()
+my_dict.values()
+my_dict.items()
+
+
+keys = ['a', 'b', 'c']
+values = [1, 2, 3]
+d1 = dict(zip(keys, values))
+
+
+####Sets
+#Sets are unordered collections of simple objects. They are mainly used to check whether an object is present in the set and compute mathematical operations such as intersection, union, difference etc.
+
+
+X = set(['A', 'B', 'C'])
+
+
+
+
 
 
 
