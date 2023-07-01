@@ -47,8 +47,8 @@ x[0] #first item
 x[1] #second item
 
 
-#sorted finction to sort the list
-#it only support the one type of the data .ii.e either numeric or string , default is ascending order and to sort it in descending order supply reverse=False 
+#sorted function to sort the list
+#it only support the one type of the data .i.e either numeric or string , default is ascending order and to sort it in descending order supply reverse=False 
 
 x=[1,3,2,5,8]
 sorted(x)
